@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idle Clicker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/opus-mundi" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/fixedsys-62" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/fruinky" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/gratelos" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/sunday-funday" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/insaniburger-with-cheese" rel="stylesheet">
+                       
+                
+                                
+</head>
+<body>
+    
+    <nav class="nav bg-body-secondary m-2">
+        <a id="gameNav" class="nav-link active fontburger" href="#">Main Game</a>
+        <a id="aboutNav" class="nav-link active fontburger" href="#">About Us</a>
+    </nav>
+
+    <div class="container-fluid">
+        
+
+        <div id="mainGame">
+            <center><h1 class="fontcartoon">Idle Clicker Game</h1></center>
+
+            <div class="row">
+                <div class="col-4">
+                    <h3 class="fontcartoon">Money : <span id="money"></span></h3>
+                        <br><br><br><br><br>
+                    <h3 class="fontcartoon">Upgrade : </h3>
+                    <div class="m-2">
+                        <button id="upgrade1" type="button" class="button fontfrunky">TAHU</button>
+                        <p class="fontserif d-inline ms-2"> : <span id="upCost1"></span></p>
+                    </div>
+                    <div class="m-2">
+                        <button id="upgrade2" type="button" class="button fontfrunky">MINYAK</button>
+                        <p class="fontserif d-inline ms-2"> : <span id="upCost2"></span></p>
+                    </div>
+                    <div class="m-2">
+                        <button id="upgrade3" type="button" class="button fontfrunky">KOMPOR</button>
+                        <p class="fontserif d-inline ms-2"> : <span id="upCost3"></span></p>
+                    </div>
+                </div>
+                <div class="col-8 border-start">
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="fontgratelos mb-3">Auto-Clicker : <span id="autoCount"></span></p>
+                            <p class="fontgratelos mb-3">Cost : <span id="autoCost"></span></p>
+                            <button id="autoClick" type="button" class="button fontfrunky">Buy Auto Clicker</button>
+                        </div>
+                        <div class="col-4"></div><!--ini ga terlalu perlu-->
+                        <div class="col-4">
+                            <p class="fontgratelos mb-3">Buka Cabang Tahu Bulat : <span id="multiCount"></span></p>
+                            <p class="fontgratelos mb-3">Cost : <span id="multiCost"></span></p>
+                            <button id="multiplier" type="button" class="button fontfrunky">Buy Multiplier</button>
+                        </div>
+                    </div>
+                    <h2 class="fontcartoon text-center">Click Here</h2>
+                    <div id="before" class="mx-auto p-2" style="width: 600px;">
+                        <img class="image-fluid rounded mx-auto d-block" src="image/before.png">
+                    </div>
+                    <div id="after" class="mx-auto p-2" style="width: 600px;">
+                        <img class="image-fluid rounded mx-auto d-block" src="image/after.png">
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <!--===================================About Us================================-->
+
+        <div id="aboutUs">
+            <h1 class="text-center fontcartoon">About Us</h1>
+            <div class="card-group">
+                <div class="card text-bg-dark" style="width: 23%; margin: 3px;">
+                  <img src="image/pinceng.jpg" class="card-img-top image-fluid">
+                  <div class="card-body">
+                    <h5 class="card-title">Vincent Marlino</h5>
+                    <p class="card-text">Halo! Namaku Vincent Marlino, biasa dipanggil Pinceng atau Lino. 
+                        Aku adalah salah satu anggota kelompok PerCiLok yang setia menemani teman-temanku untuk nugas sampai jam 3 subuh :D
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <a href="https://instagram.com/marli.no" class="btn btn-outline-info">Follow IG-ku</a>
+                  </div>
+                </div>
+
+                <div class="card text-bg-dark" style="width: 23%; margin: 3px;">
+                    <img src="image/epeng.jpg" class="card-img-top image-fluid">
+                    <div class="card-body">
+                      <h5 class="card-title">Aditya Stephen Hung</h5>
+                      <p class="card-text">Halo gais, namaku Aditya Stephen Hung, tapi lebih akrab dipanggil Epen.
+                            Aku juga salah satu anggota kelompok PerCiLok yang suka riding.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://instagram.com/adityastpn_/" class="btn btn-outline-info">Follow IG-ku</a>
+                    </div>
+                </div>
+
+                <div class="card text-bg-dark" style="width: 23%; margin: 3px;">
+                    <img src="image/hapis.jpg" class="card-img-top image-fluid">
+                    <div class="card-body">
+                      <h5 class="card-title">Hafizh Kumara Widyadhana</h5>
+                      <p class="card-text">Hai semuanya, kenalin aku Hafizh Kumara Widyadhana, tapi bisa dipanggil Hapis.
+                        Aku adalah anggota kelompok PerCiLok yang suka main game seperti Genshin Impact dan Monster Hunter, karena saya nolep.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://instagram.com/haaa_kw/" class="btn btn-outline-info">Follow IG-ku</a>
+                    </div>
+                </div>
+
+                <div class="card text-bg-dark" style="width: 23%; margin: 3px;">
+                    <img src="image/nggih.jpg" class="card-img-top image-fluid">
+                    <div class="card-body">
+                      <h5 class="card-title">Muhammad Lutfi Salinggih</h5>
+                      <p class="card-text">Halo halo halo, aku Muhammad Lutfi Salinggih, lebih sering dipanggil Nggih.
+                        Aku anggota kelompok PerCiLok yang suka foto-foto di acara cosplay.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://instagram.com/salinggih_" class="btn btn-outline-info">Follow IG-ku</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div id="references" class="bg-dark text-light">
+                <h1 class="fontcartoon">References</h1>
+                    <ul>
+                        <li>Bootstrap. Retrieved from <a href="https://getbootstrap.com/">https://getbootstrap.com/</a></li>
+                        <li>jQuery. Retrieved from <a href="https://jquery.com/">https://jquery.com/</a></li>
+                        <li>Tutorial from <a href="https://w3schools.com/">https://w3schools.com/</a></li>
+                      </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script src="jscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
