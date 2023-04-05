@@ -1,0 +1,71 @@
+#aboutUs{
+    display: none;
+}
+
+#after{
+    display: none;
+}
+body{
+    background-image: url(image/latar1.jpg);
+}
+
+.button{
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-color: #fff;
+}
+
+.button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button{
+    min-width: 120px;
+    padding: 0 25px;
+  }
+  }
+
+.fontcartoon{
+    font-family: 'Opus Mundi', sans-serif;
+    font-size: 40px;
+}
+
+.fontserif{
+    font-family: 'sunday funday', sans-serif;
+                                                
+    font-size: 35px;
+}
+
+.fontfrunky{
+font-family: 'Fruinky', sans-serif;
+font-size: 20px;
+}     
+
+.fontgratelos{
+    font-family: 'Gratelos', sans-serif;
+    font-size: 25px;                                     
+}                               
+
+.fontburger{
+  font-family: 'Insaniburger with Cheese', sans-serif;
+  font-size: 20px;
+}
